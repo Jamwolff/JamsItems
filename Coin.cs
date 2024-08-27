@@ -30,7 +30,7 @@ using Random = System.Random;
 namespace Coin
 {
     [CustomItem(ItemType.Coin)]
-    public class Coin : CustomItem
+    public class Coins : CustomItem
     {
         public override uint Id { get; set; } = 50;
         public override string Name { get; set; } = "Weird Quarter";

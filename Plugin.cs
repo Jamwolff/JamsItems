@@ -17,9 +17,9 @@ namespace KYSyringe
     {
         public static Plugin Instance;
         public override string Name { get; } = "Jam's Custom Items";
-        public override string Author { get; } = "Jamwolff, with a lot of help and 'borrowed' code from Snivy (Thanks Again Again BTW)";
+        public override string Author { get; } = "Jamwolff, with a lot of help and 'borrowed' code from Snivy (Thanks Again BTW)";
         public override string Prefix { get; } = "JI";
-        public override Version Version { get; } = new Version(1, 1, 5);
+        public override Version Version { get; } = new Version(1, 1, 6);
         public override Version RequiredExiledVersion { get; } = new Version(8, 11, 0);
 
         public override void OnEnabled()
